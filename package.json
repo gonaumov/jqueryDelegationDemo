@@ -1,0 +1,15 @@
+{
+  "name": "jquerydelegationdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp node_modules/jquery/dist/jquery.min.js docs/ && cp node_modules/jquery/dist/jquery.min.map docs/"
+  },
+  "author": "Georgi Naumov",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.min.js"></script>
+    <style>
+        input {
+            display: block;
+            clear: both;
+            margin: 0px auto;
+        }
+    </style>
+    <script>
+        $(document).on("change", "input", (event) => {
+            $("body").append("<div>Div with id:" +  event.currentTarget.id +  " is changed.</div>");
+        })
+    </script>
+</head>
+<body>
+<input type="text" id="text-1" />
+<input type="text" id="text-2" />
+<input type="text" id="text-3" />
+<input type="text" id="text-4" />
+<input type="text" id="text-5" />
+<input type="text" id="text-6" />
+<input type="text" id="text-7" />
+<input type="text" id="text-8" />
+</body>
+</html>
